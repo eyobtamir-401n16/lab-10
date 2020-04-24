@@ -6,8 +6,9 @@ class Model {
   }
   async create(record) {
     try{
-    let createNew = await this.schema.create(record);
-    return  createNew.save();
+    let createNew =  new this.schema(record);
+    console.log('create', createNew)
+    return  await createNew.save();
     }catch (e){
       console.error('error on create', e)
     }
