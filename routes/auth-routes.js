@@ -23,6 +23,12 @@ console.log('data', data)
 return data;
 };
 
+/**
+ * Model POST route
+ * @group Model/
+ * @route POST /model/
+ * @returns {object} 201 -This route create data
+ */
 
 router.post('/signup-body', async (req, res, next) => {
   let user = await UserModel.create(req.body);
