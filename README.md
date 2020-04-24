@@ -3,24 +3,18 @@
 * Author: Eyob Tamir
 
 ### Links and Resources
-[submission PR link] () 
+[submission PR link] (https://github.com/eyobtamir-401n16/lab-10/pull/4) 
 
 ### back-end server url (when applicable)
 * http//:localhosts:3000  - for home page *
-* http//:localhosts:3000/api/v1/products  - for products page * 
-* http//:localhosts:3000/api/v1/categories  - for categoris page *
+* http://localhost:3000/api/v1/users- will populate the users data.
 
-### Heroku Link Home Page
-**
-
-### Heroku Link Products Page
-**
 
 ### Heroku Link home Page
 *https://lab-10-auth.herokuapp.com/*
 
 ### Swagger on Heroku Link
-**
+*http://lab-10-auth.herokuapp.com/api-docs*
 
 ### Setup
 * .env requirements *
@@ -38,4 +32,4 @@
 * npm test lab-10
 
 UML
-![lab-10-uml]()
+![lab-10-uml](./asset/image/uml-lab-10.jpg)
